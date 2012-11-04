@@ -1,6 +1,6 @@
 public class ListUtilities {
 
-	public IntList array2List(int [] intArray) {
+	public static IntList array2List(int [] intArray) {
 		IntList myIntList = new IntList(intArray[0]);
 	
 		for (int i=1 ; i < intArray.length ; i++) {

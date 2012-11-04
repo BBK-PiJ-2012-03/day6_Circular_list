@@ -7,10 +7,10 @@ public class IntListScript {
  
 	public void launch() {
 		int [] myArray = {2,4,6,8,10};
-		ListUtilities myUtility = new ListUtilities();
-		IntList myList = myUtility.array2List(myArray);
 		
-		myUtility.printList(myList);
+		IntList myList = ListUtilities.array2List(myArray);
+		ListUtilities.printList(myList);
+		
 	}
 }	
 	
