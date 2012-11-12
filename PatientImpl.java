@@ -1,5 +1,5 @@
-public class PatientImpl  {
-  public String name;
+public class PatientImpl   {
+  private String name;
   private int age;
   private String illness;
   private PatientImpl nextPatient;
@@ -37,8 +37,12 @@ public class PatientImpl  {
 	}
 	
 	public void traverseForward(PatientImpl myPatient) {
+		
 			do { System.out.println(myPatient.name + ", " + myPatient.age + ", " + myPatient.illness);
 				myPatient = myPatient.nextPatient; }
 			 while (myPatient != patientListStart); 
 		}
-}	
+		
+		
+	}
+	

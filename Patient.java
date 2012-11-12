@@ -15,8 +15,6 @@ public interface Patient {
 	void traverseForward(Patient myPatient); 
 	
 
-//Prints the list backwards
-	
-	void traverseBackward(Patient myPatient); 
+
 	
 }
